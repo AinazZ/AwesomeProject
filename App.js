@@ -13,7 +13,8 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen
           name="Search"
-          component={SearchScreen} />
+          component={SearchScreen}
+          options={{ title: 'Business Search' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
