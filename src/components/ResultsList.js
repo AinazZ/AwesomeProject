@@ -16,7 +16,7 @@ const ResultsList = ({ title, results }) => {
                     renderItem={({ item }) => {
                         return <ResultsDetail result={item} />;
                     }} />
-                : <Text>Results not found</Text>}
+                : <Text style={{ marginLeft: 15 }}>Results not found</Text>}
 
         </View>
     );

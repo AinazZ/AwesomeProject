@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
-
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const SearchBar = ({ term, onChangeTerm, onSubmitTerm }) => {
@@ -26,7 +25,8 @@ const styles = StyleSheet.create({
         height: 50,
         borderRadius: 5,
         marginHorizontal: 15,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginBottom: 10
     },
     inputStyle: {
         flex: 1,
